@@ -1,0 +1,60 @@
+.login-div {
+    width: 90%;
+    background-color: rgb(240, 240, 240);
+    color: rgb(130, 0, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 60px 35px 35px 35px;
+    margin: 0px;
+    border-radius: 40px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.1),
+        5px 5px 10px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.logo > img {
+    width: 120px;
+    height: 120px;
+    display: table;
+    margin: 0px auto 0px auto;
+}
+
+.title {
+    font-size: 28px;
+    text-align: center;
+    padding: 24px 0px 0px 0px;
+    letter-spacing: 0.5px;
+}
+
+.fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+
+.sign-btn {
+    width: 30%;
+    background-color: rgb(130, 0, 206);
+    color: rgb(252, 206, 0);
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(252, 206, 0);
+    display: table;
+    margin: 30px auto 0px auto;
+}
+
+.sign-btn:hover {
+    background-color: rgb(252, 206, 0);
+    color: rgb(130, 0, 206);
+    border: 1px solid rgb(130, 0, 206);
+}
+
+.forgot-link {
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.forgot-link > a {
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+}

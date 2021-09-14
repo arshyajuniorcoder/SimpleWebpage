@@ -1,0 +1,145 @@
+.header-bar {
+    display: flex;
+}
+
+.search-forms {
+    width: 50%;
+    position: relative;
+    margin: 0px;
+}
+
+.search-icons {
+    color: #333;
+    font-size: 28px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    text-decoration: none;
+}
+
+.login-btn {
+    margin: 0px -50px 0px 0px;
+}
+
+.cart-icons {
+    font-size: 28px;
+    color: #333;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.menu-bar {
+    direction: rtl;
+}
+
+.menu-bar-li {
+    position: relative;
+    margin: 0px 20px 0px 0px;
+    border-bottom: 1px solid transparent;
+}
+
+.menu-bar-li:hover {
+    border-bottom: 1px solid rgb(255, 77, 77);
+}
+
+.menu-bar-li > a {
+    font-size: 14px;
+    margin: 0px 20px 0px 0px;
+}
+
+.menu-bar-li > a > i {
+    font-size: 20px;
+    color: rgb(146, 146, 146);
+    position: absolute;
+    top: 8px;
+    right: 6px;
+}
+
+.product-package {
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    padding: 0px;
+    margin: 40px 0px 0px 0px;
+    direction: rtl;
+    position: relative;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-title {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.compare-icon > i {
+    color: rgb(90, 90, 90);
+    font-size: 24px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.heart-icon > i {
+    color: rgb(90, 90, 90);
+    font-size: 24px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.product-info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.turned-icon {
+    color: rgb(255, 217, 0);
+}
+
+.turned-text {
+    font-size: 13px;
+    position: absolute;
+    top: 2px;
+    right: 30px;
+}
+
+.turned-text:hover {
+    color: #f83838;
+    cursor: pointer;
+}
+
+.rating-icon {
+    color: rgb(255, 102, 0);
+}
+
+.rating-text {
+    font-size: 13px;
+    position: absolute;
+    top: 4px;
+    left: 30px;
+}
+
+.app-image {
+    width: 70px;
+    height: 70px;
+}
+
+.download-app {
+    font-size: 14px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 40px 0px 0px;
+}
+
+.social-media-icons {
+    font-size: 24px;
+    margin: 0px 0px 0px 15px;
+}
+
+.about-us > i {
+    font-size: 22px;
+    margin: 0px 0px 0px 10px;
+}

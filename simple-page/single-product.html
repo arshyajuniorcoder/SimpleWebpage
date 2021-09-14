@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="single-product-style.css" />
+        <script src="changeImage.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-light header-bar border-bottom">
+                <a href="#" class="navbar-brand brands">Bootstrap</a>
+                <form class="form-group search-forms">
+                    <input
+                        class="form-control"
+                        type="search"
+                        placeholder="Search"
+                    />
+                    <a href="#"
+                        ><i class="material-icons search-icons">search</i></a
+                    >
+                </form>
+                <a
+                    href="sign.html"
+                    class="
+                        btn btn-outline-success
+                        d-lg-block d-md-none d-sm-none d-none
+                        login-btn
+                    "
+                    >ورود به حساب کاربری</a
+                >
+                <a href="#"
+                    ><i
+                        class="
+                            material-icons
+                            d-lg-block d-md-none d-sm-none d-none
+                            cart-icons
+                        "
+                        >shopping_cart</i
+                    ></a
+                >
+            </nav>
+            <div class="text-justify text-lg-start text-muted items-bar">
+                <a href="#" class="me-4 text-reset">Bootstrap</a>
+                <span>/</span>
+                <a href="#" class="me-4 text-reset">کالای دیجیتال</a>
+                <span>/</span>
+                <a href="#" class="me-4 text-reset">لوازم جانبی کامپیوتر</a>
+                <span>/</span>
+                <a href="#" class="me-4 text-reset">ماوس</a>
+            </div>
+            <div
+                class="
+                    row
+                    row-cols-xl-3
+                    row-cols-lg-3
+                    row-cols-md-2
+                    row-cols-sm-1
+                    row-cols-1
+                "
+                style="margin-top: 40px"
+            >
+                <div
+                    class="
+                        col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12
+                        product-images-icons
+                    "
+                >
+                    <a href="#" class="heart-icon"
+                        ><i class="material-icons">favorite_border</i></a
+                    >
+                    <a href="#" class="cart-icon"
+                        ><i class="material-icons">add_shopping_cart</i></a
+                    >
+                    <a href="#" class="compare-icon"
+                        ><i class="material-icons">compare</i></a
+                    >
+                    <a href="#" class="list-icon"
+                        ><i class="material-icons">list</i></a
+                    >
+                    <img
+                        src="https://dkstatics-public.digikala.com/digikala-products/3094486.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90"
+                        alt="Mouse-Image"
+                        class="card-img-top main-image"
+                        id="product-main-image"
+                    />
+                    <div
+                        class="
+                            row
+                            row-cols-xl-3
+                            row-cols-lg-3
+                            row-cols-md-3
+                            row-cols-sm-3
+                            row-cols-3
+                        "
+                    >
+                        <img
+                            src="https://dkstatics-public.digikala.com/digikala-products/3094499.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+                            alt="Mouse-Image"
+                            class="col-4 sub-images"
+                            id="first-image"
+                            onclick="changeFirstImage()"
+                        />
+                        <img
+                            src="https://dkstatics-public.digikala.com/digikala-products/3094497.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+                            alt="Mouse-Image"
+                            class="col-4 sub-images"
+                            id="second-image"
+                            onclick="changeSecondImage()"
+                        />
+                        <img
+                            src="https://dkstatics-public.digikala.com/digikala-products/3094492.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+                            alt="Mouse-Image"
+                            class="col-4 sub-images"
+                            id="third-image"
+                            onclick="changeThirdImage()"
+                        />
+                    </div>
+                </div>
+                <div
+                    class="
+                        col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12
+                        card-body
+                        product
+                    "
+                >
+                    <p class="card-title product-title">
+                        ماوس تسکو مدل TM 762 G
+                    </p>
+                    <small class="product-en-title">Tsco TM 762 G Mouse</small>
+                    <div class="product-colors">
+                        <p>رنگ:</p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="product-property">
+                        <p class="product-property-title">ویژگی‌های کالا</p>
+                        <ul class="product-property-ul">
+                            <li class="product-property-li">
+                                نوع اتصال: با سیم
+                            </li>
+                            <li class="product-property-li">
+                                نوع رابط: پورت USB
+                            </li>
+                            <li class="product-property-li">
+                                نوع حسگر: اپتیکال
+                            </li>
+                            <li class="product-property-li">
+                                محدوده دقت: 800 تا 1600
+                            </li>
+                            <li class="product-property-li">
+                                قابلیت کارکردن با هر دو دست: خیر
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="
+                        col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12
+                        card-body card-form
+                    "
+                >
+                    <div class="seller-store">
+                        <a href="#"
+                            ><i class="material-icons store-icons">store</i></a
+                        >
+                        <p class="card-title seller">فروشنده: دیجی کالا</p>
+                    </div>
+                    <p class="card-subtitle mb-2 text-muted buyer-satisfaction">
+                        86 ٪ رضایت خریداران
+                    </p>
+                    <hr />
+                    <div class="warranty-border">
+                        <a href="#"
+                            ><i class="material-icons warranty-icons"
+                                >bookmark_border</i
+                            ></a
+                        >
+                        <p class="card-text warranty">
+                            گارانتی اصالت و سلامت فیزیکی کالا
+                        </p>
+                    </div>
+                    <hr />
+                    <div>
+                        <p class="seller-price">قیمت فروشنده</p>
+                        <p class="card-title price">239,000 ریال</p>
+                    </div>
+                    <a href="sign.html" class="btn btn-success buy-btn">خرید</a>
+                </div>
+            </div>
+            <div class="product-info">
+                <ul class="">
+                    <li class="">
+                        <a href="#" class="text-decoration-none info-title"
+                            >نقد و بررسی</a
+                        >
+                        <p class="sub-info-title">نقد و بررسی اجمالی</p>
+                        <p class="text-muted product-name">
+                            Tsco TM 762 G Mouse
+                        </p>
+                        <p class="reviews">
+                            ماوس «TM 762 G» توسط شرکت «تسکو» طراحی شده و به صورت
+                            باسیم به دستگاه متصل خواهد شد. این ماوس از طریق
+                            درگاه USB به کامپیوتر یا لپ‌تاپ متصل شده و کابل آن
+                            1.5 متر طول دارد. این کابل با استفاده از روکش کتان
+                            پوشانده شده تا در برابر بسیاری از صدمات مقاوم باشد و
+                            در حین کار با ماوس آسیبی به کابل آن وارد نشود. این
+                            ماوس شرکت تسکو دارای 6 کلید است که از این تعداد سه
+                            عدد کلید اصلی بوده، یک کلید برای تنظیم DPI و دو کلید
+                            در طرفین برای انجام Back/Forward هستند. به‌گفته‌ی
+                            شرکت سازنده حداکثر DPI در مدل TM 762 G از سری
+                            ماوس‌‎های تسکو برابر با 1600DPI است؛ همچنین حداقل
+                            دقت در این محصول هم 1200DPI بوده و در صورت نیاز
+                            می‌توانید با استفاده از کلید DPI روی ماوس مقدار آن
+                            را کاهش یا افزایش دهید. نوع حسگر در این مدل از
+                            ماوس‌های تسکو هم اپتیکال است تا در زمان استفاده از
+                            ماوس روی سطوح مختلف مشکلی ایجاد نشود.
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none info-title"
+                            >مشخصات</a
+                        >
+                        <p class="sub-info-title">مشخصات کالا</p>
+                        <p class="text-muted product-name">
+                            Tsco TM 762 G Mouse
+                        </p>
+                        <div
+                            class="
+                                row
+                                row-cols-xl-3
+                                row-cols-lg-3
+                                row-cols-md-3
+                                row-cols-sm-3
+                                row-cols-3
+                            "
+                        >
+                            <div
+                                class="
+                                    col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4
+                                "
+                            >
+                                <p class="specifications-title">
+                                    مشخصات فیزیکی
+                                </p>
+                            </div>
+                            <div
+                                class="
+                                    col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4
+                                "
+                            >
+                                <p class="specifications-sub-title">ابعاد</p>
+                                <p class="specifications-sub-title">وزن</p>
+                                <p class="specifications-sub-title">
+                                    تعداد کلیدها
+                                </p>
+                                <p class="specifications-sub-title">
+                                    کلید روشن و خاموش
+                                </p>
+                            </div>
+                            <div
+                                class="
+                                    col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4
+                                "
+                            >
+                                <p class="specifications-details">
+                                    40 × 78 × 133 میلی‌متر
+                                </p>
+                                <p class="specifications-details">157 گرم</p>
+                                <p class="specifications-details">6 عدد</p>
+                                <p class="specifications-details">ندارد</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none info-title"
+                            >امتیاز کالا</a
+                        >
+                        <p class="sub-info-title">امتیاز کاربران به کالا</p>
+                        <p class="text-muted product-name">
+                            Tsco TM 762 G Mouse
+                        </p>
+                        <div class="justify-content-center">
+                            <table
+                                class="text-justify mx-auto"
+                                style="direction: rtl"
+                            >
+                                <tr>
+                                    <td class="rating-label">دقت و عملکرد</td>
+                                    <td class="rating-bar">
+                                        <div class="bar-container">
+                                            <div class="bar-5"></div>
+                                        </div>
+                                    </td>
+                                    <td>4.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rating-label">خوش دست بودن</td>
+                                    <td class="rating-bar">
+                                        <div class="bar-container">
+                                            <div class="bar-4"></div>
+                                        </div>
+                                    </td>
+                                    <td>4.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rating-label">
+                                        طراحی و کیفیت ساخت
+                                    </td>
+                                    <td class="rating-bar">
+                                        <div class="bar-container">
+                                            <div class="bar-3"></div>
+                                        </div>
+                                    </td>
+                                    <td>4.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rating-label">
+                                        امکانات و قابلیت‌ها
+                                    </td>
+                                    <td class="rating-bar">
+                                        <div class="bar-container">
+                                            <div class="bar-2"></div>
+                                        </div>
+                                    </td>
+                                    <td>4.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rating-label">
+                                        ارزش خرید در برابر قیمت
+                                    </td>
+                                    <td class="rating-bar">
+                                        <div class="bar-container">
+                                            <div class="bar-1"></div>
+                                        </div>
+                                    </td>
+                                    <td>4.0</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="text-center" style="direction: ltr">
+                            <p class="rating-numbers">
+                                4.0 <small><sub>از 5</sub></small>
+                            </p>
+                            <span class="material-icons star-active">star</span>
+                            <span class="material-icons star-active">star</span>
+                            <span class="material-icons star-active">star</span>
+                            <span class="material-icons star-active">star</span>
+                            <span class="material-icons star-active"
+                                >star_border</span
+                            >
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
